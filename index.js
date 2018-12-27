@@ -1,61 +1,61 @@
 module.exports = {
   get TuyaCoreApi () {
-    return require('./TuyaCoreApi')
+    return require('./src/TuyaCoreApi')
   },
 
   get TuyaUserApi () {
-    return require('./TuyaUserApi')
+    return require('./src/TuyaUserApi')
   },
 
   get TuyaTimerApi () {
-    return require('./TuyaTimerApi')
+    return require('./src/TuyaTimerApi')
   },
   get TuyaShareApi () {
-    return require('./TuyaShareApi')
+    return require('./src/TuyaShareApi')
   },
   get TuyaPushApi () {
-    return require('./TuyaPushApi')
+    return require('./src/TuyaPushApi')
   },
   get TuyaMessageApi () {
-    return require('./TuyaMessageApi')
+    return require('./src/TuyaMessageApi')
   },
   get TuyaRoomApi(){
-    return require('./TuyaRoomApi')
+    return require('./src/TuyaRoomApi')
   },
   get TuyaHomeApi(){
-    return require('./TuyaHomeApi')
+    return require('./src/TuyaHomeApi')
   },
   get TuyaHomeMemberApi(){
-    return require('./TuyaHomeMemberApi')
+    return require('./src/TuyaHomeMemberApi')
   },
   get TuyaHomeManagerApi(){
-    return require('./TuyaHomeManagerApi')
+    return require('./src/TuyaHomeManagerApi')
   },
   get TuyaHomeDataManagerApi(){
-    return require('./TuyaHomeDataManagerApi')
+    return require('./src/TuyaHomeDataManagerApi')
   },
   get TuyaGroupApi(){
-    return require('./TuyaGroupApi')
+    return require('./src/TuyaGroupApi')
   },
   get TuyaFeedBackApi(){
-    return require('./TuyaFeedBackApi')
+    return require('./src/TuyaFeedBackApi')
   },
   get TuyaSingleTransferApi(){
-    return require('./TuyaSingleTransferApi')
+    return require('./src/TuyaSingleTransferApi')
   },
   get TuyaOTAApi(){
-    return require('./TuyaOTAApi')
+    return require('./src/TuyaOTAApi')
   },
   get TuyaGatewayApi(){
-    return require('./TuyaGatewayApi')
+    return require('./src/TuyaGatewayApi')
   },
   get TuyaDeviceApi(){
-    return require('./TuyaDeviceApi')
+    return require('./src/TuyaDeviceApi')
   },
   get TuyaActivatorApi(){
-    return require('./TuyaActivatorApi')
+    return require('./src/TuyaActivatorApi')
   },
   get TuyaSceneApi(){
-    return require('./TuyaSceneApi')
+    return require('./src/TuyaSceneApi')
   }
 }
