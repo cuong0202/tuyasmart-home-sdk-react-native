@@ -3,6 +3,7 @@
 `$ npm install react-native-tuya-rn-sdk --save`
 
 Mostly automatic installation
+
 `$ react-native link react-native-tuya-rn-sdk`
 
 ## Manual installation
