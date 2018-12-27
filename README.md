@@ -1,10 +1,10 @@
-# react-native-tuya-rn-sdk
+# tuyasmart-home-sdk-react-native
 ## Getting started
-`$ npm install react-native-tuya-rn-sdk --save`
+`$ npm install tuyasmart-home-sdk-react-native --save`
 
 Mostly automatic installation
 
-`$ react-native link react-native-tuya-rn-sdk`
+`$ react-native link tuyasmart-home-sdk-react-native`
 
 ## Manual installation
 ### iOS
@@ -20,13 +20,13 @@ no need link
 2. Append the following lines to android/settings.gradle:
 
 ```
-include ':react-native-tuya-rn-sdk'
-project(':react-native-tuya-rn-sdk').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-tuya-rn-sdk/android')
+include ':tuyasmart-home-sdk-react-native'
+project(':tuyasmart-home-sdk-react-native').projectDir = new File(rootProject.projectDir, 	'../node_modules/tuyasmart-home-sdk-react-native/android')
 ```
 
 3. Insert the following lines inside the dependencies block in android/app/
 
 ```
 build.gradle:
-  compile project(':react-native-tuya-rn-sdk')
+  compile project(':tuyasmart-home-sdk-react-native')
   
