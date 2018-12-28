@@ -34,6 +34,7 @@ build/
 .project
 local.properties
 *.iml
+.classpath
 gradlew*
 gradle
 

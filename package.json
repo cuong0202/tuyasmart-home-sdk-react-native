@@ -1,16 +1,17 @@
 {
   "name": "tuyasmart-home-sdk",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Build TuyaSmart React Native App by this SDK",
   "main": "index.js",
   "scripts": {},
   "keywords": [
     "react-native",
     "tuyasmart",
-    "iot"
+    "iot",
+    "tuya"
   ],
   "author": "Tuya Inc.",
-  "license": "ISC",
+  "license": "MIT",
   "files": [
     "index.js",
     "lib",

@@ -1,5 +1,9 @@
 # tuyasmart-home-sdk-react-native
 
+## Notice 
+
+For now, it's only work on Android.The iOS version is incoming.
+
 ## Feature Overview
 
 Tuya Smart APP SDK provides the interface package for the communication with hardware and Tuya Cloud to accelerate the application development process, including the following features:
