@@ -1,5 +1,7 @@
 # tuyasmart-home-sdk-react-native
 
+![](https://img.shields.io/github/license/TuyaInc/tuyasmart-home-sdk-react-native.svg)
+
 ## Notice 
 
 For now, it's only work on Android.The iOS version is incoming.
