@@ -1,5 +1,5 @@
 
-package com.reactlibrary;
+package com.tuya.rnsdk;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -30,7 +30,7 @@ import com.tuya.smart.rnsdk.share.TuyaShareModule;
 import com.tuya.smart.rnsdk.timer.TuyaTimerModule;
 import com.tuya.smart.rnsdk.user.TuyaUserModule;
 
-public class RNTuyaRnSdkPackage implements ReactPackage {
+public class TuyaRNSDKPackage implements ReactPackage {
     @Override
     @SuppressWarnings("unchecked")
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
