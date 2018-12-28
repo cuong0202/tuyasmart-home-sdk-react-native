@@ -1,7 +1,7 @@
 {
   "name": "tuyasmart-home-sdk",
   "version": "1.0.0",
-  "description": "",
+  "description": "Build TuyaSmart React Native App by this SDK",
   "main": "index.js",
   "scripts": {},
   "keywords": [
@@ -9,10 +9,16 @@
     "tuyasmart",
     "iot"
   ],
-  "author": "",
-  "license": "",
+  "author": "Tuya Inc.",
+  "license": "ISC",
+  "files": [
+    "index.js",
+    "lib",
+    "android",
+    "ios"
+  ],
   "peerDependencies": {
-    "react-native": "^0.41.2"
+    "react-native": "^0.57.4"
   },
   "devDependencies": {
     "@commitlint/cli": "^7.2.1",
@@ -41,5 +47,16 @@
       "prettier --write",
       "git add"
     ]
-  }
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TuyaInc/tuyasmart-home-sdk-react-native.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TuyaInc/tuyasmart-home-sdk-react-native/issues"
+  },
+  "homepage": "https://github.com/TuyaInc/tuyasmart-home-sdk-react-native#readme"
 }
