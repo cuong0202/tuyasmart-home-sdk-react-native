@@ -1,32 +1,19 @@
 # tuyasmart-home-sdk-react-native
+
+## Feature Overview
+
+Tuya Smart APP SDK provides the interface package for the communication with hardware and Tuya Cloud to accelerate the application development process, including the following features:
+
+Hardware functions (network configuration, control, status reporting, regular tasks, groups, firmware upgrades, sharing)
+Account system (phone number, email registration, login, password reset and other general account functions)
+Tuya Cloud HTTP API interface package
+
 ## Getting started
-`$ npm install tuyasmart-home-sdk-react-native --save`
+
+`$ npm install tuyasmart-home-sdk --save`
 
 Mostly automatic installation
 
-`$ react-native link tuyasmart-home-sdk-react-native`
+`$ react-native link tuyasmart-home-sdk`
 
-## Manual installation
-### iOS
-no need link
 
-### Android
-1. Open up `android/app/src/main/java/[...]/MainActivity.java`
-
-  Add `import com.reactlibrary.RNTuyaRnSdkPackage`; to the imports at the top of the file
-
- Add new RNTuyaRnSdkPackage() to the list returned by the getPackages() method
- 
-2. Append the following lines to android/settings.gradle:
-
-```
-include ':tuyasmart-home-sdk-react-native'
-project(':tuyasmart-home-sdk-react-native').projectDir = new File(rootProject.projectDir, 	'../node_modules/tuyasmart-home-sdk-react-native/android')
-```
-
-3. Insert the following lines inside the dependencies block in android/app/
-
-```
-build.gradle:
-  compile project(':tuyasmart-home-sdk-react-native')
-  
