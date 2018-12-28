@@ -12,8 +12,6 @@ Tuya Cloud HTTP API interface package
 
 `$ npm install tuyasmart-home-sdk --save`
 
-Mostly automatic installation
-
 `$ react-native link tuyasmart-home-sdk`
 
 
