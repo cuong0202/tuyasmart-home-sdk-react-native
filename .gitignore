@@ -34,6 +34,10 @@ build/
 .project
 local.properties
 *.iml
+gradlew*
+gradle
+
+
 
 # node.js
 #
