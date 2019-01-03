@@ -31,38 +31,38 @@ import com.tuya.smart.rnsdk.timer.TuyaTimerModule;
 import com.tuya.smart.rnsdk.user.TuyaUserModule;
 
 public class TuyaRNSDKPackage implements ReactPackage {
-    @Override
-    @SuppressWarnings("unchecked")
-    public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
-        List module =  new ArrayList<NativeModule>();
-        module.add(new TuyaActivatorModule(reactContext));
-        module.add(new TuyaCoreModule(reactContext));
-        module.add(new TuyaDeviceModule(reactContext));
-        module.add(new TuyaGatewayModule(reactContext));
-        module.add(new TuyaOTAModule(reactContext));
-        module.add(new TuyaSingleTransferModule(reactContext));
-        module.add(new TuyaFeedBackModule(reactContext));
-        module.add(new TuyaGroupModule(reactContext));
-        module.add(new TuyaHomeDataManagerModule(reactContext));
-        module.add(new TuyaHomeManagerModule(reactContext));
-        module.add(new TuyaHomeModule(reactContext));
-        module.add(new TuyaRoomModule(reactContext));
-        module.add(new TuyaMessageModule(reactContext));
-        module.add(new TuyaPushModule(reactContext));
-        module.add(new TuyaShareModule(reactContext));
-        module.add(new TuyaTimerModule(reactContext));
-        module.add(new TuyaUserModule(reactContext));
-        module.add(new TuyaSceneModule(reactContext));
-        return module;
-    }
+  @Override
+  @SuppressWarnings("unchecked")
+  public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
+    List modules = new ArrayList<NativeModule>();
+    modules.add(new TuyaActivatorModule(reactContext));
+    modules.add(new TuyaCoreModule(reactContext));
+    modules.add(new TuyaDeviceModule(reactContext));
+    modules.add(new TuyaGatewayModule(reactContext));
+    modules.add(new TuyaOTAModule(reactContext));
+    modules.add(new TuyaSingleTransferModule(reactContext));
+    modules.add(new TuyaFeedBackModule(reactContext));
+    modules.add(new TuyaGroupModule(reactContext));
+    modules.add(new TuyaHomeDataManagerModule(reactContext));
+    modules.add(new TuyaHomeManagerModule(reactContext));
+    modules.add(new TuyaHomeModule(reactContext));
+    modules.add(new TuyaRoomModule(reactContext));
+    modules.add(new TuyaMessageModule(reactContext));
+    modules.add(new TuyaPushModule(reactContext));
+    modules.add(new TuyaShareModule(reactContext));
+    modules.add(new TuyaTimerModule(reactContext));
+    modules.add(new TuyaUserModule(reactContext));
+    modules.add(new TuyaSceneModule(reactContext));
+    return modules;
+  }
 
-    // Deprecated from RN 0.47
-    public List<Class<? extends JavaScriptModule>> createJSModules() {
-      return Collections.emptyList();
-    }
+  // Deprecated from RN 0.47
+  public List<Class<? extends JavaScriptModule>> createJSModules() {
+    return Collections.emptyList();
+  }
 
-    @Override
-    public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {
-      return Collections.emptyList();
-    }
+  @Override
+  public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {
+    return Collections.emptyList();
+  }
 }
