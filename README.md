@@ -5,6 +5,7 @@
 ## Notice 
 
 For now, it's only work on Android.The iOS version is incoming.
+[Docs](https://tuyakae.gitbook.io/tuyasmart-home-sdk-react-native)
 
 ## Feature Overview
 
